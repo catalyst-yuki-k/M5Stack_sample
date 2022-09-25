@@ -1,6 +1,6 @@
 {
     "configuration": "FlashMode=qio,FlashFreq=80,PartitionScheme=default,UploadSpeed=921600,DebugLevel=none",
     "board": "esp32:esp32:m5stack-core-esp32",
-    "sketch": "01.hello_world\\hello_world\\hello_world.ino",
+    "sketch": "02.M5_LCD_font\\M5_LCD_font_colorcode\\M5_LCD_font_colorcode.ino",
     "port": "COM3"
 }
