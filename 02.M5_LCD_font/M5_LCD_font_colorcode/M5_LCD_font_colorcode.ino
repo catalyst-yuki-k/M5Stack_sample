@@ -7,7 +7,7 @@ void setup() {
     M5.Lcd.setBrightness(255);
 
     //文字の大きさを1～7で指定
-    M5.Lcd.setTextSize(2);
+    M5.Lcd.setTextSize(1);
 
     //文字色を設定（文字背景色は透明）
     M5.Lcd.setTextColor(BLACK,WHITE);
