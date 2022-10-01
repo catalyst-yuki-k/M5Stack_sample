@@ -2512,11 +2512,10 @@ const uint16_t* epd_bitmap_allArray[1] = {
 
 void setup() {
     M5.begin();
-    //SDカード内のビットマップ画像(BMP)を表示する
-    //（X座標、Y座標、幅、高さ、画像ファイル名）
-    M5.Lcd.drawBitmap(60, 20, 200, 200, (uint8_t*)epd_bitmap_m5stack_logo);
 }
 
 void loop() {
-    ;
+    //SDカード内のビットマップ画像(BMP)を表示する
+    //（X座標、Y座標、幅、高さ、画像ファイル名）
+    M5.Lcd.drawBitmap(60, 20, 200, 200, (uint8_t*)epd_bitmap_m5stack_logo);
 }
