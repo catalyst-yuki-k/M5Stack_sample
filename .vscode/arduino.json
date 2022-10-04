@@ -1,6 +1,6 @@
 {
     "configuration": "FlashMode=qio,FlashFreq=80,PartitionScheme=default,UploadSpeed=921600,DebugLevel=none",
     "board": "esp32:esp32:m5stack-core-esp32",
-    "sketch": "06.M5_button\\M5_button_alternate\\M5_button_alternate.ino",
+    "sketch": "08.M5_Interrupt\\M5_timer\\M5_timer.ino",
     "port": "COM3"
 }
